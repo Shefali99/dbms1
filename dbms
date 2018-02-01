@@ -1,0 +1,15 @@
+create table TBA(rollno number(9),Name varchar(26));
+insert into TBA 
+
+values(1,'shiv');
+insert into TBA values(2,'ayush');
+insert into TBA 
+
+values(3,'shivin');
+select * from TBA;
+select * from TBA where name = 
+
+'ayush';
+delete from TBA where rollno = 3;
+select * from TBA;
+drop table 
